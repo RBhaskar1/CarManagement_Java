@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UpdateInformationPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="UpdateInformationPanel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="UpdateInformationPanel">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Update Information">
+              <Font PropertyName="font" name="Lucida Grande" size="18" style="3"/>
+              <Color PropertyName="color" blue="33" green="cc" red="0" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="11" max="32767" attributes="0"/>
+                  <Component id="employeeIDLabel" min="-2" pref="87" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="employeeIDTextField" min="-2" pref="117" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="personTypeLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="personTypeComboBox" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                  <Component id="customerIDLabel" min="-2" pref="87" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="customerIDTextField" min="-2" pref="117" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="updateEmployeeButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="updateEmployeeButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="78" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="usernameLabel" min="-2" pref="87" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                          <Component id="usernameTextField" min="-2" pref="117" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="passwordLabel" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                              <Component id="roleLabel" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="passwordTextField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="roleComboBox" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="phoneNumberLabel" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="officeAddressLabel" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="phoneExtLabel" alignment="1" max="32767" attributes="0"/>
+                                  <Component id="addressLabel" alignment="1" min="-2" pref="104" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="nameLabel" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="nameTextField" min="-2" pref="117" max="-2" attributes="0"/>
+                              <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                                  <Component id="officeAddressTextField" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                                  <Component id="phoneNumberTextField" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                                  <Component id="phoneExtTextField" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                                  <Component id="addressTextField" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="birthdayLabel1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="phoneExtLabel1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="phoneNumberLabel1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="addressLabel1" alignment="1" min="-2" pref="104" max="-2" attributes="0"/>
+                          <Component id="officeAddressLabel1" alignment="1" min="-2" pref="104" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="nameLabel1" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                          <Component id="officeAddressTextField1" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="addressTextField1" alignment="0" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="phoneNumberTextField1" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="phoneExtTextField1" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                          <Component id="birthdayTextField1" alignment="1" min="-2" pref="117" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="nameTextField1" min="-2" pref="117" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="267" max="-2" attributes="0"/>
+                  <Component id="searchPersonButton" min="-2" pref="121" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="employeeIDLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="employeeIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="personTypeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="personTypeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="customerIDLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="customerIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="searchPersonButton" min="-2" pref="43" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nameLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="nameTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="officeAddressLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="officeAddressTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="addressLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="addressTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phoneNumberLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="phoneNumberTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phoneExtLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="phoneExtTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="birthdayLabel1" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="birthdayTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="nameLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="nameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="officeAddressLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="officeAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="addressLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="addressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phoneNumberLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="phoneNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="phoneExtLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="phoneExtTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="usernameLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="usernameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="passwordLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="passwordTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="roleLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                              <Component id="roleComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="updateEmployeeButton" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="updateEmployeeButton1" alignment="0" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="24" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="employeeIDLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Employee ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="employeeIDTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Employee ID" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nameTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Employee Name" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameTextFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="officeAddressLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Office Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="officeAddressTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Office Address" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="addressTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Home Address" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="addressLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Home Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="phoneNumberLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phone Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phoneNumberTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Phone Number" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phoneExtTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Phone Extension" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="phoneExtLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phone Extension"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="usernameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Username"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="passwordLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="roleLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Role"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="roleComboBox">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Admin"/>
+                <StringItem index="1" value="Staff"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="Role" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JTextField" name="passwordTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Password" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="usernameTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="UserName" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="updateEmployeeButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Update Employee Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateEmployeeButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="searchPersonButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Search Person"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchPersonButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="personTypeLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Person Type"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="personTypeComboBox">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="2">
+                <StringItem index="0" value="Employee"/>
+                <StringItem index="1" value="Customer"/>
+              </StringArray>
+            </Property>
+            <Property name="name" type="java.lang.String" value="Person Type" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="customerIDLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Customer ID"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="customerIDTextField">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Customer ID" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="nameTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Cutomer Name" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameTextField1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="officeAddressTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Address" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="addressTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="License Number" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phoneNumberTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="License Expiry" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="phoneExtTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Phone Number" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="birthdayTextField1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="Age" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="birthdayLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Age"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="phoneExtLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Phone Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="phoneNumberLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="License Expiry"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="addressLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="License Number"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="officeAddressLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Address"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="nameLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="updateEmployeeButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Update Employee Record"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateEmployeeButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
